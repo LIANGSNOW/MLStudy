@@ -130,6 +130,8 @@ def train(mnist):
 
 def main(argv=None):
     MNIST =input_data.read_data_sets('./MINST_data', one_hot=True) # 读取数
+
+
     train(MNIST)
 
 if __name__ == '__main__':
